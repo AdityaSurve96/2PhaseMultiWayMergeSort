@@ -20,3 +20,6 @@ Example
 1000000 5mb
 111111 234566 22 ... ...
 
+Another src file should be run prior to the main algorithm to generate the required input file which is then given as input to the tpmms algorithm.
+
+The Main memory limitation can be set in Arguments section of Projects run configurations as Example:- "-Xmx5m  for 5 mb main memory limitation"
